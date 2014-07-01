@@ -13,6 +13,10 @@ namespace :db do
                    email: email,
                    password: password,
                    password_confirmation: password)
+    users = User.all(limit: 60)
+    50.times do
+      content = Faker::Lorem.sentence(5)
+      users.each { |user| user.microposts.create!(content: content) }
     end
   end
 end
