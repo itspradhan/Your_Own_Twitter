@@ -195,7 +195,39 @@ input {
   @extend .error;
 }
 
-/* microposts */
+.microposts {
+  list-style: none;
+  margin: 10px 0 0 0;
+}
+/* line 203, /home/action/workspace/voicesofhk/app/assets/stylesheets/custom.css.scss */
+.microposts li {
+  padding: 10px 0;
+  border-top: 1px solid #e8e8e8;
+}
+
+/* line 209, /home/action/workspace/voicesofhk/app/assets/stylesheets/custom.css.scss */
+.content {
+  display: block;
+}
+
+/* line 213, /home/action/workspace/voicesofhk/app/assets/stylesheets/custom.css.scss */
+.timestamp {
+  color: #999999;
+}
+
+/* line 217, /home/action/workspace/voicesofhk/app/assets/stylesheets/custom.css.scss */
+.gravatar {
+  float: left;
+  margin-right: 10px;
+}
+
+/* line 223, /home/action/workspace/voicesofhk/app/assets/stylesheets/custom.css.scss */
+aside textarea {
+  height: 100px;
+  margin-bottom: 5px;
+}
+
+/* microposts 
 
 .microposts {
   list-style: none;
@@ -225,7 +257,7 @@ aside {
     margin-bottom: 5px;
   }
 }
-
+ */
 /* miscellaneous */
 
 .debug_dump {
